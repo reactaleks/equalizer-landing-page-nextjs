@@ -3,26 +3,24 @@
 import LogoComponent from "./LogoComponent";
 import SocialComponent from "./SocialComponent";
 
-
 export default function FooterComponent() {
-
   return (
     <footer
-      className={``}
+      className={` w-[90%] xl:w-[80%] 2xl:w-[60%] h-[300px] mt-[400px] flex flex-col justify-around  py-6 mx-auto` }
     >
-      <div className="col-span-4 col-start-2 row-span-1 row-start-3 ">
-        <LogoComponent  />
-      </div>
-      <div className="col-span-10 col-start-2 row-span-2 row-start-6 md:col-span-4 md:row-start-3 md:col-start-5">
-        <p>
-          All rights reserved © Equalizer 2021
-         Have any problems? Contact us via social media or email us at equalizer@example.com
-        </p>
-      </div>
+        <div className="h-[75%] flex flex-col justify-around">
+          <LogoComponent />
 
-      <div className="col-span-4 col-start-2 row-span-1 row-start-11 md:row-start-3 md:col-start-10 xl:col-start-11">
-        <SocialComponent />
-      </div>
+          <p className="w-[75%]">
+            All rights reserved © Equalizer 2021 Have any problems? Contact us
+            via social media or email us at{" "}
+            <span className="font-bold">equalizer@example.com</span>
+          </p>
+        </div>
+
+        <div className="h-[25%] content-center md:content-center md:h-[75%]  ">
+          <SocialComponent />
+        </div>
     </footer>
   );
 }
