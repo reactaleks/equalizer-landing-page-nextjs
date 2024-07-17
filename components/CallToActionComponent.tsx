@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function CallToActionComponent() {
   return (
-    <div className="z-10 h-[1024px] md:h-auto md:my-32 xl:my-48 flex flex-col justify-between md:justify-center clear-both z-10">
+    <div className="h-[1024px] md:h-auto md:my-32 xl:my-48 flex flex-col justify-between md:justify-center clear-both z-10">
       <div className="w-full md:w-[696px] md:h-[600px] xl:w-[1110px] xl:h-[600px]  md:rounded-xl md:mx-auto bg-black  ">
         <div className="relative">
           <Image
