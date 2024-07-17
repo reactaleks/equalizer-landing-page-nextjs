@@ -6,7 +6,7 @@ import SocialComponent from "./SocialComponent";
 export default function FooterComponent() {
   return (
     <footer
-      className={`z-10 w-[90%] xl:w-[80%] 2xl:w-[75%] h-[25vh] flex flex-col justify-around mx-auto md:flex-row md:items-center mb-24 md:mb-4`}
+      className={`z-10 w-[90%] 2xl:w-[75%] h-[25vh] flex flex-col justify-around mx-auto md:flex-row md:items-center mb-24 md:mb-4`}
     >
       <div className="flex flex-col xl:flex-row xl:items-start xl:justify-between xl:w-[50%] z-10">
         <LogoComponent />
