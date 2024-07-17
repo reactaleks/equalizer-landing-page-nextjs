@@ -12,7 +12,7 @@ export default function BackgroundPatternComponent({ windowSize }: PropTypes) {
         width={582}
         height={780}
         alt=""
-        className="w-[500px] h-[480px] absolute -top-[100px] -right-[120px]"
+        className="w-[500px] h-[480px] absolute -top-[100px] -right-[120px] z-0"
       />
     );
   } else if (windowSize < 1024) {
@@ -23,14 +23,14 @@ export default function BackgroundPatternComponent({ windowSize }: PropTypes) {
           width={1283}
           height={1108}
           alt=""
-          className="w-[1283px] h-[1000px] absolute -top-[200px] -left-[150px] z-1"
+          className=" absolute -top-[5%] -left-[10%] z-0"
         />
         <Image
           src={"/assets/bg-pattern-1.svg"}
           width={1283}
           height={1108}
           alt=""
-          className="w-[230px] h-[350px] absolute -right-[25px] -top-[25px] z-2"
+          className="w-[266.67px] h-[400px] lg:w-[266.67px] lg:h-[400px] absolute -right-[0] -top-[25px] z-0"
         />
       </>
     );
@@ -43,7 +43,7 @@ export default function BackgroundPatternComponent({ windowSize }: PropTypes) {
           width={1913}
           height={2058}
           alt=""
-          className="absolute "
+          className="absolute z-0 -top-[15%] -left-[0] "
           priority
         />
         <Image
@@ -51,7 +51,7 @@ export default function BackgroundPatternComponent({ windowSize }: PropTypes) {
           width={1283}
           height={1108}
           alt=""
-          className="w-[230px] h-[350px] xl:w-[15%] xl:h-[20%] absolute -right-[25px] -top-[25px] z-2"
+          className="xl:w-[312px] xl:h-[468px] lg:w-[266.67px] lg:h-[400px] absolute -right-[0] -top-[25px] z-0"
         />
       </div>
     );
