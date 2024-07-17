@@ -14,7 +14,7 @@ export default function FooterComponent() {
         <p className="w-[75%] md:w-[50%] xl:w-[60%] my-8 xl:my-0 z-10">
           All rights reserved © Equalizer 2021 Have any problems? Contact us via
           social media or email us at{" "}
-          <span className="font-bold">equalizer@example.com</span>
+          <span className="font-bold cursor-pointer">equalizer@example.com</span>
         </p>
       </div>
 
